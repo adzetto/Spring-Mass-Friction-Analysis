@@ -1,8 +1,7 @@
-# Auto detect text files and perform LF normalization
 * text=auto
 
-# Set the language for .tex files to TeX
 *.tex linguist-language=TeX
 
-# Set the language for .py files to Python
 *.py linguist-language=Python
+
+main.py linguist-detectable=true
