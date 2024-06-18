@@ -1,0 +1,116 @@
+% Prevent issues with KOMA-Script packages
+\usepackage{scrhack}
+
+% Set page margins
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+% Packages for including graphics, SVG, and TikZ for drawing
+\usepackage{graphicx, svg, tikz}
+\graphicspath{ {./images/} }
+
+% Add various TikZ libraries for decorations, positioning, arrows, and calculations
+\usetikzlibrary{decorations.pathmorphing, positioning}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc}
+
+% Package to force float placement
+\usepackage{float}
+
+% Use modern Latin fonts
+\usepackage{lmodern}
+
+% Import other documents and files
+\usepackage{import}
+
+% Package for fancy headers and footers
+\usepackage{fancyhdr}
+
+% Add ToC, List of Figures, and List of Tables to the table of contents
+\usepackage{tocbibind}
+
+% Packages for tabular environments, math symbols, fonts, and environments
+\usepackage{tabularx, amsmath, amsfonts, amssymb, amsthm}
+
+% Packages for algorithms and pseudocode
+\usepackage{algorithm, algpseudocode}
+
+% Adjust box sizes
+\usepackage{adjustbox}
+
+% Package for book-quality tables and captions
+\usepackage{booktabs, caption}
+
+% Set line spacing to one and a half
+\usepackage{setspace}
+\onehalfspacing
+
+% Package to determine the last page of the document
+\usepackage{lastpage}
+
+% Package for including code listings
+\usepackage{listings}
+
+% Define custom colors
+\definecolor{Green}{rgb}{0,0.6,0}
+\definecolor{Gray}{rgb}{0.5,0.5,0.5}
+\definecolor{Mauve}{rgb}{0.58,0,0.82}
+\definecolor{Purple}{HTML}{800080}
+\definecolor{Mulberry}{rgb}{0.77, 0.29, 0.55}
+\definecolor{WildStrawberry}{rgb}{1.0, 0.26, 0.64}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+\definecolor{oxfordblue}{rgb}{0.0, 0.13, 0.28}
+\definecolor{prussianblue}{rgb}{0.0, 0.19, 0.33}
+\definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
+
+% Additional color and xcolor package for more color options
+\usepackage{color, xcolor}
+\definecolor{keywordcolor}{rgb}{0.5,0,0.5}
+\definecolor{stringcolor}{rgb}{0.6,0.6,0}
+\definecolor{commentcolor}{rgb}{0.0,0.5,0.0}
+\definecolor{backgroundcolor}{rgb}{1.0,1.0,1.0}
+\definecolor{numbercolor}{rgb}{0.5,0.5,0.5}
+
+% Hyperlinks configuration, set final mode, color links
+\usepackage[final]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=bostonuniversityred,
+    citecolor=blue,
+    filecolor=magenta,
+    urlcolor=blue
+}
+
+% Configuration for listings package to format code
+\lstset{
+    backgroundcolor=\color{backgroundcolor},
+    basicstyle=\ttfamily\normalsize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{commentcolor}\itshape,
+    extendedchars=true,
+    frame=tb,
+    rulecolor=\color{black},
+    framerule=0.5pt,
+    framextopmargin=1pt,
+    framexbottommargin=1pt,
+    framesep=0pt,
+    keepspaces=true,
+    keywordstyle=\color{keywordcolor}\bfseries,
+    language=Python,
+    numbers=left,
+    numbersep=10pt,
+    numberstyle=\normalsize\color{numbercolor},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    stepnumber=1,
+    stringstyle=\color{stringcolor},
+    tabsize=4,
+    aboveskip=10pt,
+    belowskip=10pt,
+    belowcaptionskip=0pt
+}
+
+% Define a custom highlight command
+\newcommand{\hl}[1]{\texttt{#1}}
