@@ -37,25 +37,15 @@ V SPRING-MASS-FRICTION-ANALYSIS
     ```bash
     git clone https://github.com/your-username/spring-mass-system-simulation.git
     cd spring-mass-system-simulation
-    ```
     
-    ```bash
     pip install numpy matplotlib memory_profiler manim
-    ```
-    
-    ```bash
+
     python code/simulation.py
-    ```
     
-    ```bash
     python code/plotting.py
-    ```
-    
-    ```bash
+
     python code/manim_simulation.py
-    ```
     
-    ```bash
     pdflatex main.tex
     biber main
     pdflatex main.tex
