@@ -34,7 +34,7 @@ V SPRING-MASS-FRICTION-ANALYSIS
 - LaTeX distribution (e.g., TeX Live, MiKTeX)
 
 ### Installation
-    ```bash
+```bash
     git clone https://github.com/your-username/spring-mass-system-simulation.git
     cd spring-mass-system-simulation
     
@@ -50,7 +50,7 @@ V SPRING-MASS-FRICTION-ANALYSIS
     biber main
     pdflatex main.tex
     pdflatex main.tex
-    ```
+```
 
 ### Output Files
 
