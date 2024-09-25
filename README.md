@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project describes a model of a frictional spring-mass system implemented in Python. The results are shown in dynamic graphs, which make the system's behaviour both comprehensible and visually appealing.
+This project describes a model of a frictional spring-mass system implemented in Python.
 
 ## Project Structure
 
@@ -23,8 +23,6 @@ V SPRING-MASS-FRICTION-ANALYSIS
 └── rowdata.tex
 ```
 
-## Getting Started
-
 ### Prerequisites
 
 - Python 3.7 or higher
@@ -36,38 +34,21 @@ V SPRING-MASS-FRICTION-ANALYSIS
 - LaTeX distribution (e.g., TeX Live, MiKTeX)
 
 ### Installation
-
-1. Clone the repository:
     ```bash
     git clone https://github.com/your-username/spring-mass-system-simulation.git
     cd spring-mass-system-simulation
     ```
-
-2. Install required Python packages:
     ```bash
     pip install numpy matplotlib memory_profiler manim
     ```
-
-### Running the Simulation
-
-1. Run the main simulation script:
     ```bash
     python code/simulation.py
     ```
-
-2. Generate plots:
     ```bash
     python code/plotting.py
     ```
-
-3. Create Manim animations:
     ```bash
     python code/manim_simulation.py
-    ```
-
-### LaTeX Document
-
-1. Compile the LaTeX document:
     ```bash
     pdflatex main.tex
     biber main
@@ -93,14 +74,6 @@ V SPRING-MASS-FRICTION-ANALYSIS
 #### Time and Memory Complexity Plot
 ![Time and Memory Complexity](figures/time_memory_complexity.pgf)
 
-## Contributing
-
-Please don't hesitate to provide feedback in the form of problems or pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## References
 
 - Smith, J. (2020). *Introduction to the Spring-Mass System*. Journal of Mechanics, 34(2), 123-145.
@@ -108,9 +81,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Johnson, L. (2019). *Friction and Its Effects on Motion*. Physics Today, 56(7), 78-90.
 - Miller, R. (2022). *Numerical Simulation Techniques*. Wiley.
 - Various other sources as listed in the main document.
-
-## Authors
-
-- Muhammet Yağcıoğlu - *Initial work* - [muhammet.y.resmi@gmail.com]
-
----
