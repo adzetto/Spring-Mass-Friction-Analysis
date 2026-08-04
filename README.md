@@ -1,5 +1,13 @@
 # Spring-Mass System Simulation
 
+<!-- badges -->
+![TeX](https://img.shields.io/badge/TeX-008080?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![MPI](https://img.shields.io/badge/MPI-005571?style=for-the-badge)
+
+![last commit](https://img.shields.io/github/last-commit/adzetto/Spring-Mass-Friction-Analysis?style=flat-square&color=informational) ![repo size](https://img.shields.io/github/repo-size/adzetto/Spring-Mass-Friction-Analysis?style=flat-square&color=informational) ![top language](https://img.shields.io/github/languages/top/adzetto/Spring-Mass-Friction-Analysis?style=flat-square) ![language count](https://img.shields.io/github/languages/count/adzetto/Spring-Mass-Friction-Analysis?style=flat-square) ![license](https://img.shields.io/github/license/adzetto/Spring-Mass-Friction-Analysis?style=flat-square&color=informational)
+
+
 ## Project Overview
 
 This project describes a model of a frictional spring-mass system implemented in Python.
